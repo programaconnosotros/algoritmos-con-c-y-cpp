@@ -1,5 +1,9 @@
 # Implementando soluciones simples en C
 
+- **Instructor**: Agustín Sánchez (GitHub: *agustin-sanc*, Discord: *agustin_sz#4065*)
+- **Lugar**: servidor de Discord de **programaConNosotros**
+- **Fecha**: viernes 23 de julio, 2021
+
 ## Ejercicio 1
 
 Desarrollar un programa que permita calcular la suma de 2 números enteros indicados por el usuario.

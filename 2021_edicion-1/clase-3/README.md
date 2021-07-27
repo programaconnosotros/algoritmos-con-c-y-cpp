@@ -1,4 +1,8 @@
-# Implementando soluciones simples en C
+# Implementando soluciones simples en C (continuación)
+
+- **Instructor**: Agustín Sánchez (GitHub: *agustin-sanc*, Discord: *agustin_sz#4065*)
+- **Lugar**: servidor de Discord de **programaConNosotros**
+- **Fecha**: lunes 26 de julio, 2021
 
 ## Ejercicio 1
 
