@@ -1,6 +1,6 @@
 # Resolviendo problemas simples de forma conceptual
 
-# Ejercicio 1
+## Ejercicio 1
 
 Desarrollar un programa que permita calcular la suma de 2 números enteros indicados por el usuario.
 
@@ -15,7 +15,7 @@ Desarrollar un programa que permita calcular la suma de 2 números enteros indic
         3. Sumar los 2 números enteros indicados por el usuario
         4. Mostrar el resultado de la suma de los 2 números enteros
 
-# Ejercicio 2
+## Ejercicio 2
 
 Desarrollar un programa que permita calcular la división de 2 números enteros indicados por el usuario. Tener en cuenta que no se puede dividir en 0.
 
@@ -32,7 +32,7 @@ Desarrollar un programa que permita calcular la división de 2 números enteros 
             2. Si el denominador es distinto de cero, calcular la división de los 2 números
         4. Mostrar el resultado de la división
 
-# Ejercicio 3
+## Ejercicio 3
 
 Desarrollar un programa que permita calcular el promedio de 3 números enteros indicados por el usuario.
 
@@ -49,7 +49,7 @@ Desarrollar un programa que permita calcular el promedio de 3 números enteros i
         5. Dividir la suma de los 3 números enteros en 3
         6. Mostrar el resultado del promedio de los 3 números enteros
 
-# Ejercicio 4
+## Ejercicio 4
 
 Desarrollar un programa que permita calcular el promedio de N números enteros indicados por el usuario.
 
@@ -68,7 +68,7 @@ Desarrollar un programa que permita calcular el promedio de N números enteros i
         5. Dividir la suma en la cantidad de números enteros (indicada en el paso 1)
         6. Mostrar el resultado del promedio
 
-# Ejercicio 5
+## Ejercicio 5
 
 Desarrollar un programa que permita calcular el porcentaje de alumnos aprobados en un examen. La nota de cada uno de los 5 alumnos debe ser ingresada por el usuario. Se considera aprobado aquel examen cuya nota sea mayor o igual a 6.
 

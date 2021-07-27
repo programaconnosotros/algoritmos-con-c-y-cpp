@@ -7,6 +7,7 @@
 
 ## Clases
 
-1. Introducción a una metodología para resolver problemas de forma conceptual
-2. Implementación en C de las soluciones realizadas en la clase 1
-3. Resolviendo los desafíos de la clase 2 y refactorizando los ejercicios con funciones
+1. Introducción al diseño de algoritmos 
+2. Implementando soluciones a problemas simples con C
+3. Implementando soluciones a problemas simples con C (continuación) 
+4. Introducción a las funciones en C y C++ 
