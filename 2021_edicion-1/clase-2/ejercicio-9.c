@@ -4,12 +4,12 @@
 
 int main() {
     int cantidadAprobados = 0;
-    int cantidadNotas;
+    int cantidadNotas = 0;
 
     float nota;
 
     do {
-        printf("Ingrese la nota del alumno %d (0 para finalizar la entrada): ", cantidadNotas + 1);
+        printf("Ingrese la nota del alumno %d: ", cantidadNotas + 1);
         scanf("%f", &nota);
 
         if(fmod(nota, 1) != 0 || nota > 10) {
