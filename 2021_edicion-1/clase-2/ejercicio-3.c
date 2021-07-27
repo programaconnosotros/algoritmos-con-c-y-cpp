@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 int main() {
     float numero1, numero2, numero3;
@@ -9,7 +10,7 @@ int main() {
 
     if(fmod(numero1, 1) != 0) {
         printf("El valor ingresado es invalido");
-        return -1;
+        exit(1);
     }
 
     printf("Ingrese el segundo numero: ");
@@ -17,7 +18,7 @@ int main() {
 
     if(fmod(numero2, 1) != 0) {
         printf("El valor ingresado es invalido");
-        return -1;
+        exit(1);
     }
 
     printf("Ingrese el tercer numero: ");
@@ -25,7 +26,7 @@ int main() {
 
     if(fmod(numero3, 1) != 0) {
         printf("El valor ingresado es invalido");
-        return -1;
+        exit(1);
     }
 
     float promedio = (numero1 + numero2 + numero3) / 3;

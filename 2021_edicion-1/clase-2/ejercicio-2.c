@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 int main() {
     float numerador, denominador;
@@ -9,7 +10,7 @@ int main() {
 
     if(fmod(numerador, 1) != 0) {
         printf("El valor ingresado es invalido");
-        return -1;
+        exit(1);
     }
 
     printf("Ingrese el denominador: ");
@@ -17,7 +18,7 @@ int main() {
 
     if(fmod(denominador, 1) != 0 || denominador == 0) {
         printf("El valor ingresado es invalido");
-        return -1;
+        exit(1);
     }
 
     float division = numerador / denominador;

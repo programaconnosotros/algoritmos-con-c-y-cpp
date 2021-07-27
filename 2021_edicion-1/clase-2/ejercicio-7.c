@@ -4,8 +4,17 @@
 
 int main() {
     int cantidadAprobados = 0;
+    float cantidadNotas;
 
-    for (int numeroDeVuelta = 1; numeroDeVuelta <= 5; numeroDeVuelta++) {
+    printf("Ingrese la cantidad de notas: ");
+    scanf("%f", &cantidadNotas);
+
+    if(fmod(cantidadNotas, 1) != 0) {
+        printf("El valor ingresado es invalido");
+        exit(1);
+    }
+
+    for (int numeroDeVuelta = 1; numeroDeVuelta <= cantidadNotas; numeroDeVuelta++) {
         float nota;
 
         printf("Ingrese la nota del alumno %d: ", numeroDeVuelta);
@@ -21,9 +30,9 @@ int main() {
         }
     }
 
-    float porcentaje = (cantidadAprobados * 100) / 5;
+    float porcentaje = (cantidadAprobados * 100) / cantidadNotas;
 
-    printf("El valor del porcentaje es: %.2f", porcentaje); 
+    printf("El porcentaje de aprobados es: %.2f", porcentaje);
 
     return 0;
 }
