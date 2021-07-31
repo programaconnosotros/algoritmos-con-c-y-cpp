@@ -1,0 +1,11 @@
+float leerNumero(char mensaje[]);
+float calcularRestoDeLaDivision(float numerador, float denominador);
+bool noEsEntero(float numero);
+void validarNumeroEntero(float numero);
+float calcularSuma(float sumando1, float sumando2);
+float calcularDivision(float numerador, float denominador);
+void cargarArreglo(float arreglo[], float cantidadDeElementos, char mensaje[]);
+void mostrarArreglo(float arreglo[], float cantidadDeElementos, char mensaje[]);
+float calcularSumaDeElementos(float arreglo[], int cantidadDeElementos);
+float leerNumeroEnteroPositivo(char mensaje[]);
+float obtenerNumeroEnteroPositivo(char mensaje[]);
