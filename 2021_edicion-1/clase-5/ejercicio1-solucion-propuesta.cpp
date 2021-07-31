@@ -16,7 +16,7 @@ void determinarEjercitoGanador(float primerEjercito[], float segundoEjercito[], 
     printf("El segundo ejercito es el ganador del enfrentamiento.\n");
   }
   else
-    printf("El enfrentamiento resultó en un empate.\n");
+    printf("El enfrentamiento resulto en un empate.\n");
 }
 
 void buscarSoldadoMasSignificativo(float ejercito[], int cantidadDeSoldados)
@@ -62,6 +62,7 @@ int main()
   system("cls");
   mostrarArreglo(primerEjercito, cantidadDeSoldados, "Soldado %d: %.f\n");
   system("pause");
+  system("cls");
 
   float segundoEjercito[99];
   cargarArreglo(segundoEjercito, cantidadDeSoldados, "Ingrese la fuerza militar del soldado del segundo ejercito: ");
@@ -69,6 +70,7 @@ int main()
   system("cls");
   mostrarArreglo(segundoEjercito, cantidadDeSoldados, "Soldado %d: %.f\n");
   system("pause");
+  system("cls");
 
   printf("Resultados:\n");
   determinarEjercitoGanador(primerEjercito, segundoEjercito, cantidadDeSoldados);

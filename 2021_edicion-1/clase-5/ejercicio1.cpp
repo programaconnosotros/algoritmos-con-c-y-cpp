@@ -70,6 +70,7 @@ void encontrarSoldadoSignificativo(float ejercito[], float cantidadDeSoldados)
   {
     if (ejercito[numeroDeSoldado] > mayorFuerzaMilitarEncontrada)
     {
+      mayorFuerzaMilitarEstaRepetida = false;
       mayorFuerzaMilitarEncontrada = ejercito[numeroDeSoldado];
       numeroDelSoldadoConMayorFuerzaMilitar = numeroDeSoldado;
     }
