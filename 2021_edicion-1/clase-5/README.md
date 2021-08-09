@@ -1,6 +1,6 @@
 # Implementando problemas con arreglos unidimensionales
 
-- **Instructores**: Mauricio Sánchez (GitHub: _mausnchz_, Discord: _mauriciosnchz#6492_) y Germán Navarro (Github: _gmanavarro_, Discord: _Naga#2072_)
+- **Instructor**: Germán Navarro (Github: _gmanavarro_, Discord: _Naga#2072_)
 - **Lugar**: servidor de Discord de **programaConNosotros**
 - **Fecha**: viernes 30 de julio, 2021
 
